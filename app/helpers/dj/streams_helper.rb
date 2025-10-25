@@ -1,0 +1,2 @@
+module Dj::StreamsHelper
+end

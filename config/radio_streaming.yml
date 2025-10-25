@@ -1,0 +1,20 @@
+default: &default
+  max_upload_size_mb: 500
+  allowed_formats: ['mp3', 'wav', 'ogg', 'flac', 'm4a']
+  default_bitrate: 128
+  max_listeners: 100
+
+  # Icecast settings (optional)
+  icecast:
+    enabled: false
+    host: 'localhost'
+    port: 8000
+    admin_password: 'hackme'
+    source_password: 'hackme'
+
+development:
+  <<: *default
+
+production:
+  <<: *default
+  max_listeners: 1000

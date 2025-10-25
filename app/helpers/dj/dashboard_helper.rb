@@ -1,0 +1,2 @@
+module Dj::DashboardHelper
+end

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  station: one
+  ip_address: MyString
+  connected_at: 2025-10-25 18:24:24
+  disconnected_at: 2025-10-25 18:24:24
+
+two:
+  station: two
+  ip_address: MyString
+  connected_at: 2025-10-25 18:24:24
+  disconnected_at: 2025-10-25 18:24:24
